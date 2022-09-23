@@ -1,0 +1,14 @@
+{
+  "name": "markdown-resume",
+  "version": "1.0.0",
+  "description": "Generate resumes from markdown",
+  "main": "resume_filter.py",
+  "scripts": {
+    "html": "node index_html.js",
+    "pdf": "node index_pdf.js",
+    "html2pdf": "wkhtmltopdf --enable-local-file-access resume.html resume.pdf"
+  },
+  "author": "Spencer Magnusson",
+  "license": "ISC",
+  "dependencies": {}
+}
